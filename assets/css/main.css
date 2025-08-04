@@ -21,9 +21,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
-.todo-list {
+.todo-main {
+    display: flex;
+    
+}
+
+.todo-list-container {
     border: 2px solid;
     border-radius: 10px;
     height: 60vh;
@@ -31,6 +37,28 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.todo-create-task {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 17vw;
+    height: 20vh;
+    position: absolute;
+    left: 50px;
+    padding: 5px;
+}
+
+.todo-create-task input {
+    width: 70%;
+    padding: 2px;
+}
+
+
+
+
 
 
 /* Calendar Page Styles */
